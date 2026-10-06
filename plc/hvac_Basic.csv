@@ -1,0 +1,974 @@
+## System ID,Tag Name,Retentive Mode,Initial Value,MODBUS Start Address,MODBUS End Address,Number of Characters,Number of Rows,Number of Columns,Wiring Label,Comment,Forceable,Init Forced,Init Force Value
+## 2.0
+SBR-001008,"1 Minute Bit",false,"0",,,,,,,"On for 30 seconds and Off for 30 seconds",,,
+SBR-001009,"2 Second Bit",false,"0",,,,,,,"On for 1 second and Off for 1 second",,,
+AIF32-0.1.1.8,"AIF32-0.1.1.8",false,"0.0",,,,,,,,false,false,"0.0"
+AIS32-0.1.6.5,"AIS32-0.1.6.5",false,"0",,,,,,,,false,false,"0"
+AIS32-0.1.6.6,"AIS32-0.1.6.6",false,"0",,,,,,,,false,false,"0"
+AIS32-0.1.6.7,"AIS32-0.1.6.7",false,"0",,,,,,,,false,false,"0"
+AIS32-0.1.6.8,"AIS32-0.1.6.8",false,"0",,,,,,,,false,false,"0"
+AOS32-0.1.5.7,"AOS32-0.1.5.7",false,"0",,,,,,,,false,false,"0"
+AOS32-0.1.5.8,"AOS32-0.1.5.8",false,"0",,,,,,,,false,false,"0"
+S32-000003,"AlarmHyst",false,"0",,,,,,,,false,false,"0"
+SBR-001002,"Always Off Bit",false,"0",,,,,,,"always off",,,
+C-000027,"AlwaysOff",false,"0",,,,,,,,false,false,"0"
+C-000159,"AlwaysOnBit",true,"1",,,,,,,,false,false,"0"
+SBR-001017,"Array out of range error",false,"0",,,,,,,"On if an array index is outside the range of the array",,,
+SWR-001514,"Array range error rung location",false,"0",,,,,,,"Rung Number in which ""Array out of range error"" occurred",,,
+SWR-001513,"Array range error task location",false,"0",,,,,,,"Task Number in which ""Array out of range error"" occurred",,,
+SWR-001506,"Avg Logic Scan Time [x100=usec]",false,"0",,,,,,,"average logic scan time",,,
+SWR-001503,"Avg Scan Interval [x100=usec]",false,"0",,,,,,,"average overall scan time",,,
+S32-000118,"BTURise",false,"0",,,,,,,,false,false,"0"
+S32-000119,"BTURiseGoal",false,"0",,,,,,,,false,false,"0"
+F32-000143,"BTURiseGoalAvg",false,"0.0",,,,,,,,false,false,"0.0"
+SBR-001006,"Battery Disabled",false,"0",,,,,,,"On if the ""CPU Battery Alarm"" is disabled in H/W Configuration",,,
+SBR-001005,"Battery Low Bit",false,"0",,,,,,,"On if the battery is weak (""CPU Battery Alarm"" in H/W Configuration)",,,
+SWR-001518,"Battery Voltage",false,"0",,,,,,,"battery voltage in 10ths of a volt",,,
+S32-000004,"BiasTerm",false,"0",,,,,,,,false,false,"0"
+F32-000141,"BiasTermP6",false,"0.0",,,,,,,,false,false,"0.0"
+F32-000044,"BldgDT",false,"0.0",,,,,,,,false,false,"0.0"
+F32-000076,"BldgDTx10",false,"0.0",,,,,,,,false,false,"0.0"
+C-000109,"BldgHWRColdLatch",false,"0",,,,,,,,false,false,"0"
+F32-000049,"BldgHWRColdTmr",false,"0.0",,,,,,,,false,false,"0.0"
+C-000108,"BldgHWRColdTrue",false,"0",,,,,,,,false,false,"0"
+C-000107,"BldgHWRHotLatch",false,"0",,,,,,,,false,false,"0"
+F32-000048,"BldgHWRHotTmr",false,"0.0",,,,,,,,false,false,"0.0"
+C-000106,"BldgHWRHotTrue",false,"0",,,,,,,,false,false,"0"
+AIF32-0.1.1.5,"BldgHWRTemp",false,"0.0",,,,,,,,false,false,"0.0"
+F32-000007,"BldgHWRTempAvg",false,"0.0",,,,,,,,false,false,"0.0"
+F32-000030,"BldgHWRTempAvg120",false,"0.0",,,,,,,,false,false,"0.0"
+C-000144,"BldgHWSAT140FLatch",true,"0",,,,,,,,false,false,"0"
+AIF32-0.1.1.4,"BldgHWSTemp",false,"0.0",,,,,,,,false,false,"0.0"
+F32-000008,"BldgHWSTempAvg",false,"0.0",,,,,,,,false,false,"0.0"
+F32-000121,"BldgWaterSendErr",false,"0.0",,,,,,,,false,false,"0.0"
+DO-0.1.4.16,"BoilerS/S",false,"0",,,,,,,,false,false,"0"
+F32-000081,"CDD",true,"8.491384",,,,,,,,false,false,"0.0"
+S32-000097,"CDDCume",true,"1102",,,,,,,,false,false,"0"
+S32-000096,"CDDInteger",false,"0",,,,,,,,false,false,"0"
+SSTR-000041,"CPU Event Log String 01",false,,,,50,,,,"most recent CPU event log message",,,
+SSTR-000042,"CPU Event Log String 02",false,,,,50,,,,"2nd most recent CPU event log message",,,
+SSTR-000043,"CPU Event Log String 03",false,,,,50,,,,"3rd most recent CPU event log message",,,
+SSTR-000044,"CPU Event Log String 04",false,,,,50,,,,"4th most recent CPU event log message",,,
+SSTR-000045,"CPU Event Log String 05",false,,,,50,,,,"5th most recent CPU event log message",,,
+SSTR-000046,"CPU Event Log String 06",false,,,,50,,,,"6th most recent CPU event log message",,,
+SSTR-000047,"CPU Event Log String 07",false,,,,50,,,,"7th most recent CPU event log message",,,
+SSTR-000048,"CPU Event Log String 08",false,,,,50,,,,"8th most recent CPU event log message",,,
+SSTR-000049,"CPU Event Log String 09",false,,,,50,,,,"9th most recent CPU event log message",,,
+SSTR-000050,"CPU Event Log String 10",false,,,,50,,,,"10th most recent CPU event log message",,,
+SSTR-000051,"CPU Event Log String 11",false,,,,50,,,,"11th most recent CPU event log message",,,
+SSTR-000052,"CPU Event Log String 12",false,,,,50,,,,"12th most recent CPU event log message",,,
+SSTR-000053,"CPU Event Log String 13",false,,,,50,,,,"13th most recent CPU event log message",,,
+SSTR-000054,"CPU Event Log String 14",false,,,,50,,,,"14th most recent CPU event log message",,,
+SSTR-000055,"CPU Event Log String 15",false,,,,50,,,,"15th most recent CPU event log message",,,
+SSTR-000056,"CPU Event Log String 16",false,,,,50,,,,"16th most recent CPU event log message",,,
+SSTR-000057,"CPU Event Log String 17",false,,,,50,,,,"17th most recent CPU event log message",,,
+SSTR-000058,"CPU Event Log String 18",false,,,,50,,,,"18th most recent CPU event log message",,,
+SSTR-000059,"CPU Event Log String 19",false,,,,50,,,,"19th most recent CPU event log message",,,
+SSTR-000060,"CPU Event Log String 20",false,,,,50,,,,"20th most recent CPU event log message",,,
+SSTR-000101,"CPU Model Name",false,,,,50,,,,"CPU Model (ex: ""P3-550"")",,,
+SSTR-000102,"CPU Program File Name",false,,,,50,,,,"CPU program file name",,,
+SBR-001001,"CPU in Run",false,"0",,,,,,,"On during Run or Debug mode",,,
+AIS32-0.1.3.3,"CPhase1Raw",false,"0",,,,,,,,false,false,"0"
+C-000004,"CascadeCtrlEna",false,"0",,,,,,,,false,false,"0"
+C-000143,"CircPumpRestartLatch",false,"0",,,,,,,,false,false,"0"
+SWR-001523,"Clock Day",false,"0",,,,,,,"current Real Time Clock Calendar Day",,,
+SWRW-001754,"Clock Day Set",false,"0",,,,,,,"new Real Time Clock Day (set all 3 date values then set ""Initiate_New_Date"" on)",,,
+SWR-001522,"Clock Day of Week",false,"0",,,,,,,"current Real Time Clock Day of the week (1=Mon ...7=Sun)",,,
+SWR-001521,"Clock Hours",false,"0",,,,,,,"current Real Time Clock Hours",,,
+SWRW-001753,"Clock Hours Set",false,"0",,,,,,,"new Real Time Clock Hours (set all 3 time values then set ""Initiate_New_Time"" on)",,,
+SWR-001520,"Clock Minutes",false,"0",,,,,,,"current Real Time Clock Minutes",,,
+SWRW-001752,"Clock Minutes Set",false,"0",,,,,,,"new Real Time Clock Minutes (set all 3 time values then set ""Initiate_New_Time"" on)",,,
+SWR-001524,"Clock Month",false,"0",,,,,,,"current Real Time Clock Calendar Month",,,
+SWRW-001755,"Clock Month Set",false,"0",,,,,,,"new Real Time Clock Month (set all 3 date values then set ""Initiate_New_Date"" on)",,,
+SWR-001519,"Clock Seconds",false,"0",,,,,,,"current Real Time Clock Seconds",,,
+SWRW-001751,"Clock Seconds Set",false,"0",,,,,,,"new Real Time Clock Seconds (set all 3 time values then set ""Initiate_New_Time"" on)",,,
+SWR-001525,"Clock Year",false,"0",,,,,,,"current Real Time Clock Calendar Year",,,
+SWRW-001756,"Clock Year Set",false,"0",,,,,,,"new Real Time Clock Year (set all 3 date values then set ""Initiate_New_Date"" on)",,,
+C-000221,"Complete",false,"0",,,,,,,,false,false,"0"
+AIS32-0.1.3.4,"Cphase3Raw",false,"0",,,,,,,,false,false,"0"
+SBR-001012,"Critical Error Bit",false,"0",,,,,,,"On when a critical error is active",,,
+SWR-000001,"Critical Error Log 01",false,"0",,,,,,,"most recent critical error",,,
+SWR-000002,"Critical Error Log 02",false,"0",,,,,,,"2nd most recent critical error",,,
+SWR-000003,"Critical Error Log 03",false,"0",,,,,,,"3rd most recent critical error",,,
+SWR-000004,"Critical Error Log 04",false,"0",,,,,,,"4th most recent critical error",,,
+SWR-000005,"Critical Error Log 05",false,"0",,,,,,,"5th most recent critical error",,,
+SWR-000006,"Critical Error Log 06",false,"0",,,,,,,"6th most recent critical error",,,
+SWR-000007,"Critical Error Log 07",false,"0",,,,,,,"7th most recent critical error",,,
+SWR-000008,"Critical Error Log 08",false,"0",,,,,,,"8th most recent critical error",,,
+SWR-000009,"Critical Error Log 09",false,"0",,,,,,,"9th most recent critical error",,,
+SWR-000010,"Critical Error Log 10",false,"0",,,,,,,"10th most recent critical error",,,
+SWR-000011,"Critical Error Log 11",false,"0",,,,,,,"11th most recent critical error",,,
+SWR-000012,"Critical Error Log 12",false,"0",,,,,,,"12th most recent critical error",,,
+SWR-000013,"Critical Error Log 13",false,"0",,,,,,,"13th most recent critical error",,,
+SWR-000014,"Critical Error Log 14",false,"0",,,,,,,"14th most recent critical error",,,
+SWR-000015,"Critical Error Log 15",false,"0",,,,,,,"15th most recent critical error",,,
+SWR-000016,"Critical Error Log 16",false,"0",,,,,,,"16th most recent critical error",,,
+SWR-000017,"Critical Error Log 17",false,"0",,,,,,,"17th most recent critical error",,,
+SWR-000018,"Critical Error Log 18",false,"0",,,,,,,"18th most recent critical error",,,
+SWR-000019,"Critical Error Log 19",false,"0",,,,,,,"19th most recent critical error",,,
+SWR-000020,"Critical Error Log 20",false,"0",,,,,,,"20th most recent critical error",,,
+SSTR-000001,"Critical Error Log String 01",false,,,,50,,,,"most recent critical error message",,,
+SSTR-000002,"Critical Error Log String 02",false,,,,50,,,,"2nd most recent critical error message",,,
+SSTR-000003,"Critical Error Log String 03",false,,,,50,,,,"3rd most recent critical error message",,,
+SSTR-000004,"Critical Error Log String 04",false,,,,50,,,,"4th most recent critical error message",,,
+SSTR-000005,"Critical Error Log String 05",false,,,,50,,,,"5th most recent critical error message",,,
+SSTR-000006,"Critical Error Log String 06",false,,,,50,,,,"6th most recent critical error message",,,
+SSTR-000007,"Critical Error Log String 07",false,,,,50,,,,"7th most recent critical error message",,,
+SSTR-000008,"Critical Error Log String 08",false,,,,50,,,,"8th most recent critical error message",,,
+SSTR-000009,"Critical Error Log String 09",false,,,,50,,,,"9th most recent critical error message",,,
+SSTR-000010,"Critical Error Log String 10",false,,,,50,,,,"10th most recent critical error message",,,
+SSTR-000011,"Critical Error Log String 11",false,,,,50,,,,"11th most recent critical error message",,,
+SSTR-000012,"Critical Error Log String 12",false,,,,50,,,,"12th most recent critical error message",,,
+SSTR-000013,"Critical Error Log String 13",false,,,,50,,,,"13th most recent critical error message",,,
+SSTR-000014,"Critical Error Log String 14",false,,,,50,,,,"14th most recent critical error message",,,
+SSTR-000015,"Critical Error Log String 15",false,,,,50,,,,"15th most recent critical error message",,,
+SSTR-000016,"Critical Error Log String 16",false,,,,50,,,,"16th most recent critical error message",,,
+SSTR-000017,"Critical Error Log String 17",false,,,,50,,,,"17th most recent critical error message",,,
+SSTR-000018,"Critical Error Log String 18",false,,,,50,,,,"18th most recent critical error message",,,
+SSTR-000019,"Critical Error Log String 19",false,,,,50,,,,"19th most recent critical error message",,,
+SSTR-000020,"Critical Error Log String 20",false,,,,50,,,,"20th most recent critical error message",,,
+F32-000068,"CumeHeatIn",true,"44.808765",,,,,,,,false,false,"0.0"
+S32-000093,"CumeHeatInInt",false,"0",,,,,,,,false,false,"0"
+F32-000067,"CumeHeatOut",true,"3129.932",,,,,,,,false,false,"0.0"
+SWR-001510,"Current Critical Error",false,"0",,,,,,,"current critical error number",,,
+SWR-001516,"Current I/O Config Error Base",false,"0",,,,,,,"I/O base in which ""I/O Configuration Error"" occurred",,,
+SWR-001515,"Current I/O Config Error Group",false,"0",,,,,,,"I/O group in which ""I/O Configuration Error"" occurred",,,
+SWR-001517,"Current I/O Config Error Slot",false,"0",,,,,,,"I/O slot in which ""I/O Configuration Error"" occurred",,,
+SWR-001511,"Current Non-critical Error",false,"0",,,,,,,"current noncritical error number",,,
+F32-000073,"CurrentNeutral",false,"0.0",,,,,,,,false,false,"0.0"
+F32-000144,"CurrentNeutralx10",false,"0.0",,,,,,,,false,false,"0.0"
+F32-000133,"CurrentPhase1",false,"0.0",,,,,,,,false,false,"0.0"
+F32-000065,"CurrentPhase1A",false,"0.0",,,,,,,,false,false,"0.0"
+F32-000072,"CurrentPhase1B",false,"0.0",,,,,,,,false,false,"0.0"
+F32-000132,"CurrentPhase3",false,"0.0",,,,,,,,false,false,"0.0"
+C-000181,"DHWBoilerAvail",true,"0",,,,,,,,false,false,"0"
+C-000180,"DHWBoilerOn",false,"0",,,,,,,,false,false,"0"
+C-000105,"DHWColdLatch",false,"0",,,,,,,,false,false,"0"
+F32-000074,"DHWColdResetTime",false,"0.0",,,,,,,,false,false,"0.0"
+C-000145,"DHWColdResetTrue",false,"0",,,,,,,,true,false,"0"
+F32-000047,"DHWColdTmr",false,"0.0",,,,,,,,false,false,"0.0"
+C-000103,"DHWColdTrue",false,"0",,,,,,,,false,false,"0"
+C-000219,"DHWFrmHPs",true,"0",,,,,,,,false,false,"0"
+C-000104,"DHWHotLatch",false,"0",,,,,,,,false,false,"0"
+F32-000046,"DHWHotTmr",false,"0.0",,,,,,,,false,false,"0.0"
+C-000101,"DHWHotTrue",false,"0",,,,,,,,false,false,"0"
+F32-000102,"DHWOuTempAvg",false,"0.0",,,,,,,,false,false,"0.0"
+AIF32-0.1.1.7,"DHWOutTemp",false,"0.0",,,,,,,,false,false,"0.0"
+C-000184,"DHWTempFail",false,"0",,,,,,,,false,false,"0"
+C-000182,"DHWTempFailLocked",true,"0",,,,,,,,false,false,"0"
+C-000183,"DHWTempReset",false,"0",,,,,,,,false,false,"0"
+S32-000117,"DTRiseX10",false,"0",,,,,,,,false,false,"0"
+DO-0.1.4.8,"DeadOutput",false,"0",,,,,,,,false,false,"0"
+DO-0.1.4.12,"DeadOutput2",false,"0",,,,,,,,false,false,"0"
+S32-000005,"Deadband",false,"0",,,,,,,,false,false,"0"
+F32-000071,"DeltaHeat",true,"3085.123",,,,,,,,false,false,"0.0"
+F32-000083,"DeltaT",false,"0.0",,,,,,,,false,false,"0.0"
+F32-000062,"Deriv",false,"0.0",,,,,,,,false,false,"0.0"
+S32-000006,"DerivLimit",false,"0",,,,,,,,false,false,"0"
+S32-000007,"DevOrange",false,"0",,,,,,,,false,false,"0"
+S32-000008,"DevYellow",false,"0",,,,,,,,false,false,"0"
+F32-000128,"DiffPiece",false,"0.0",,,,,,,,false,false,"0.0"
+C-000129,"DrumDone",false,"0",,,,,,,,false,false,"0"
+C-000127,"DrumReset",false,"0",,,,,,,,true,false,"0"
+S32-000080,"DrumStep",false,"0",,,,,,,,false,false,"0"
+S32-000081,"DrumStepTime",false,"0",,,,,,,,false,false,"0"
+S16-000033,"EE01",false,"0",,,,,,,,false,false,"0"
+S16-000034,"EE02",false,"0",,,,,,,,false,false,"0"
+S16-000035,"EE03",false,"0",,,,,,,,false,false,"0"
+S16-000036,"EE04",false,"0",,,,,,,,false,false,"0"
+S16-000037,"EE05",false,"0",,,,,,,,false,false,"0"
+F32-000118,"EEDiffPAvg",false,"0.0",,,,,,,,false,false,"0.0"
+F32-000110,"EEDiffPress",false,"0.0",,,,,,,,false,false,"0.0"
+F32-000105,"EEPIn",false,"0.0",,,,,,,,false,false,"0.0"
+F32-000106,"EEPOut",false,"0.0",,,,,,,,false,false,"0.0"
+F32-000103,"EEPress1",false,"0.0",,,,,,,,false,false,"0.0"
+F32-000104,"EEPress2",false,"0.0",,,,,,,,false,false,"0.0"
+C-000222,"Error",false,"0",,,,,,,,false,false,"0"
+C-000005,"ErrorSq",false,"1",,,,,,,,false,false,"0"
+C-000259,"ErrorSq1",false,"0",,,,,,,,false,false,"0"
+SWR-001526,"Ethernet Speed [External]",false,"0",,,,,,,"""Ethernet"" port speed (Ethernet 10 or 100)",,,
+SWR-001527,"Ethernet Speed [Internal]",false,"0",,,,,,,"""Remote I/O"" port speed (Ethernet 10 or 100)",,,
+SBR-001004,"Every Other Scan Bit",false,"0",,,,,,,"toggles at the start of each scan",,,
+STR-000001,"ExceptResp",false,,,,15,,,,,,,
+F32-000120,"ExcessWater",false,"0.0",,,,,,,,false,false,"0.0"
+SWR-001509,"Firmware Version",false,"0",,,,,,,"CPU Firmware Version Number in Hex (ex: 0x0102 is version 01.02 or 1.2)",,,
+SSTR-000104,"Firmware Version[CPU]",false,,,,50,,,,"CPU firmware version viewed as 001.000.009.023",,,
+SWR-001528,"Firmware Version[major]",false,"0",,,,,,,"CPU firmware Major version number in hex. (ex:  0x0100 =  major version 1.0)",,,
+SWR-001529,"Firmware Version[minor]",false,"0",,,,,,,"CPU firmware Minor version number in hex. (ex: 0x0917 = minor version 9.23)",,,
+SBR-001003,"First Scan Bit",false,"0",,,,,,,"On during first scan in Run or Debug mode",,,
+SWR-001530,"First Scan Interval [x100=usec]",false,"0",,,,,,,"Holds the value of the First Scan time",,,
+F32-000131,"FlowDHWGPM",false,"0.0",,,,,,,,false,false,"0.0"
+AIS32-0.1.6.4,"FlowDHWRaw",false,"0",,,,,,,,false,false,"0"
+F32-000117,"FlowMainGPM",false,"0.0",,,,,,,,false,false,"0.0"
+AIS32-0.1.3.2,"FlowMainRaw",false,"0",,,,,,,,false,false,"0"
+DI-0.1.2.4,"FlowSwitch",false,"0",,,,,,,,false,false,"0"
+C-000115,"FlowSwitchOffLatch",false,"0",,,,,,,,false,false,"0"
+F32-000052,"FlowSwitchOffTmr",false,"0.0",,,,,,,,false,false,"0.0"
+C-000114,"FlowSwitchOffTrue",false,"0",,,,,,,,false,false,"0"
+SBR-001007,"Forces Enabled",false,"0",,,,,,,"On if any forces are enabled",,,
+C-000291,"FreeWater",false,"0",,,,,,,,false,false,"0"
+F32-000080,"HDD",true,"1.5562086",,,,,,,,false,false,"0.0"
+S32-000095,"HDDCume",true,"28101",,,,,,,,false,false,"0"
+S32-000094,"HDDInteger",true,"10",,,,,,,,false,false,"0"
+C-000053,"HP1Avail",true,"1",,,,,,,,true,false,"0"
+DI-0.1.2.9,"HP1Fail",false,"0",,,,,,,,false,false,"0"
+C-000081,"HP1FailLocked",true,"0",,,,,,,,false,false,"0"
+C-000080,"HP1FailReset",true,"0",,,,,,,,true,false,"0"
+S32-000066,"HP1FailState",true,"0",,,,,,,,false,false,"0"
+C-000031,"HP1Off",false,"0",,,,,,,,false,false,"0"
+F32-000013,"HP1OffTime",true,"0.0",,,,,,,,false,false,"0.0"
+C-000033,"HP1On",false,"0",,,,,,,,false,false,"0"
+S32-000047,"HP1OnCnt",false,"1",,,,,,,,false,false,"0"
+F32-000022,"HP1OnTime",true,"2.2999341",,,,,,,,false,false,"0.0"
+F32-000018,"HP1OnTimeTotal",true,"6835.6104",,,,,,,,false,false,"0.0"
+C-000125,"HP1Override",true,"0",,,,,,,,true,false,"0"
+DO-0.1.4.9,"HP1S/S",false,"0",,,,,,,,false,false,"0"
+S32-000053,"HP1State",false,"0",,,,,,,,false,false,"0"
+S32-000127,"HP1StgCnt",false,"1",,,,,,,,false,false,"0"
+C-000054,"HP2Avail",true,"0",,,,,,,,true,false,"0"
+DI-0.1.2.10,"HP2Fail",false,"0",,,,,,,,false,false,"0"
+C-000083,"HP2FailLocked",true,"1",,,,,,,,false,false,"0"
+C-000082,"HP2FailReset",true,"0",,,,,,,,true,false,"0"
+S32-000067,"HP2FailState",true,"0",,,,,,,,false,false,"0"
+C-000051,"HP2Off",false,"0",,,,,,,,false,false,"0"
+F32-000014,"HP2OffTime",true,"330.20514",,,,,,,,false,false,"0.0"
+C-000050,"HP2On",false,"0",,,,,,,,false,false,"0"
+S32-000048,"HP2OnCnt",false,"1",,,,,,,,false,false,"0"
+F32-000023,"HP2OnTime",true,"0.0",,,,,,,,false,false,"0.0"
+F32-000019,"HP2OnTimeTotal",true,"4312.148",,,,,,,,false,false,"0.0"
+DO-0.1.4.10,"HP2S/S",false,"0",,,,,,,,false,false,"0"
+S32-000056,"HP2State",false,"0",,,,,,,,false,false,"0"
+S32-000128,"HP2StgCnt",false,"1",,,,,,,,false,false,"0"
+C-000055,"HP3Avail",true,"0",,,,,,,,true,false,"0"
+DI-0.1.2.11,"HP3Fail",false,"0",,,,,,,,false,false,"0"
+C-000085,"HP3FailLocked",true,"1",,,,,,,,false,false,"0"
+C-000084,"HP3FailReset",true,"0",,,,,,,,true,false,"0"
+S32-000068,"HP3FailState",true,"3",,,,,,,,false,false,"0"
+C-000032,"HP3Off",false,"0",,,,,,,,false,false,"0"
+F32-000015,"HP3OffTime",true,"3307.443",,,,,,,,false,false,"0.0"
+C-000034,"HP3On",false,"0",,,,,,,,false,false,"0"
+S32-000049,"HP3OnCnt",false,"1",,,,,,,,false,false,"0"
+F32-000024,"HP3OnTime",true,"0.0",,,,,,,,false,false,"0.0"
+F32-000020,"HP3OnTimeTotal",true,"3538.677",,,,,,,,false,false,"0.0"
+C-000160,"HP3Override",true,"0",,,,,,,,true,false,"0"
+DO-0.1.4.11,"HP3S/S",false,"0",,,,,,,,false,false,"0"
+S32-000055,"HP3State",false,"0",,,,,,,,false,false,"0"
+S32-000129,"HP3StgCnt",false,"1",,,,,,,,false,false,"0"
+C-000056,"HP4Avail",true,"1",,,,,,,,true,false,"0"
+DI-0.1.2.12,"HP4Fail",false,"0",,,,,,,,false,false,"0"
+C-000087,"HP4FailLocked",true,"0",,,,,,,,false,false,"0"
+C-000086,"HP4FailReset",true,"0",,,,,,,,true,false,"0"
+S32-000069,"HP4FailState",true,"0",,,,,,,,false,false,"0"
+C-000036,"HP4Off",false,"0",,,,,,,,false,false,"0"
+F32-000016,"HP4OffTime",true,"37.872425",,,,,,,,false,false,"0.0"
+C-000035,"HP4On",false,"0",,,,,,,,false,false,"0"
+S32-000050,"HP4OnCnt",false,"1",,,,,,,,false,false,"0"
+F32-000025,"HP4OnTime",true,"0.0",,,,,,,,false,false,"0.0"
+F32-000021,"HP4OnTimeTotal",true,"3436.7046",,,,,,,,false,false,"0.0"
+C-000190,"HP4Override",true,"0",,,,,,,,true,false,"0"
+DO-0.1.4.15,"HP4S/S",false,"0",,,,,,,,false,false,"0"
+S32-000054,"HP4State",false,"0",,,,,,,,false,false,"0"
+S32-000130,"HP4StgCnt",false,"1",,,,,,,,false,false,"0"
+C-000152,"HP5Avail",true,"1",,,,,,,,true,false,"0"
+DI-0.1.2.13,"HP5Fail",false,"0",,,,,,,,false,false,"0"
+C-000153,"HP5FailLocked",true,"0",,,,,,,,false,false,"0"
+C-000174,"HP5FailReset",true,"0",,,,,,,,true,false,"0"
+S32-000085,"HP5FailState",true,"0",,,,,,,,false,false,"0"
+C-000155,"HP5Off",false,"0",,,,,,,,false,false,"0"
+F32-000077,"HP5OffTime",true,"37.717846",,,,,,,,false,false,"0.0"
+C-000154,"HP5On",false,"0",,,,,,,,false,false,"0"
+S32-000083,"HP5OnCnt",false,"1",,,,,,,,false,false,"0"
+F32-000078,"HP5OnTime",true,"0.0",,,,,,,,false,false,"0.0"
+F32-000079,"HP5OnTimeTotal",true,"4794.4253",,,,,,,,false,false,"0.0"
+C-000156,"HP5Override",true,"0",,,,,,,,true,false,"0"
+DO-0.1.4.13,"HP5S/S",false,"0",,,,,,,,false,false,"0"
+S32-000084,"HP5State",false,"0",,,,,,,,false,false,"0"
+S32-000131,"HP5StgCnt",false,"2",,,,,,,,false,false,"0"
+C-000164,"HP6Avail",true,"1",,,,,,,,true,false,"0"
+DI-0.1.2.14,"HP6Fail",false,"0",,,,,,,,false,false,"0"
+C-000163,"HP6FailLocked",true,"0",,,,,,,,false,false,"0"
+C-000175,"HP6FailReset",true,"0",,,,,,,,true,false,"0"
+S32-000090,"HP6FailState",true,"0",,,,,,,,false,false,"0"
+C-000165,"HP6Off",false,"0",,,,,,,,false,false,"0"
+F32-000085,"HP6OffTime",true,"2.399191",,,,,,,,false,false,"0.0"
+C-000162,"HP6On",false,"0",,,,,,,,false,false,"0"
+S32-000088,"HP6OnCnt",false,"1",,,,,,,,false,false,"0"
+F32-000086,"HP6OnTime",true,"0.0",,,,,,,,false,false,"0.0"
+F32-000087,"HP6OnTimeTotal",true,"76.28677",,,,,,,,false,false,"0.0"
+C-000166,"HP6Override",true,"0",,,,,,,,true,false,"0"
+DO-0.1.4.14,"HP6S/S",false,"0",,,,,,,,false,false,"0"
+S32-000089,"HP6State",false,"0",,,,,,,,false,false,"0"
+S32-000132,"HP6StgCnt",false,"1",,,,,,,,false,false,"0"
+DI-0.1.2.15,"HP7Fail",false,"0",,,,,,,,false,false,"0"
+C-000176,"HP7FailLocked",true,"0",,,,,,,,false,false,"0"
+C-000177,"HP7FailReset",true,"0",,,,,,,,false,false,"0"
+S32-000098,"HP7FailState",true,"7",,,,,,,,false,false,"0"
+S32-000125,"HP7OnCnt",true,"1",,,,,,,,false,false,"0"
+C-000290,"HP7Ready",false,"0",,,,,,,,false,false,"0"
+C-000273,"HP7S/S",false,"0",,,,,,,,false,false,"0"
+S32-000133,"HP7StgCnt",false,"0",,,,,,,,false,false,"0"
+C-000265,"HP7aAvail",true,"0",,,,,,,,true,false,"0"
+C-000266,"HP7aFailLocked",true,"0",,,,,,,,false,false,"0"
+F32-000145,"HP7aOffTime",true,"0.0",,,,,,,,false,false,"0.0"
+C-000267,"HP7aOn",false,"0",,,,,,,,false,false,"0"
+F32-000146,"HP7aOnTime",false,"0.0",,,,,,,,false,false,"0.0"
+C-000268,"HP7aS/S",false,"0",,,,,,,,false,false,"0"
+C-000269,"HP7bAvail",true,"0",,,,,,,,true,false,"0"
+C-000270,"HP7bFailLocked",true,"0",,,,,,,,false,false,"0"
+F32-000147,"HP7bOffTime",true,"0.0",,,,,,,,false,false,"0.0"
+C-000271,"HP7bOn",false,"0",,,,,,,,false,false,"0"
+F32-000148,"HP7bOnTime",false,"0.0",,,,,,,,false,false,"0.0"
+C-000272,"HP7bS/S",false,"0",,,,,,,,false,false,"0"
+DI-8.1.2.5,"HP8AlarmBlink",false,"0",,,,,,,,false,false,"0"
+DI-8.1.2.1,"HP8BldgFlowSW",false,"0",,,,,,,,false,false,"0"
+S32-000141,"HP8BldgFlowSWState",false,"0",,,,,,,,false,false,"0"
+AIF32-8.1.1.1,"HP8BldgWtrTIn",false,"0.0",,,,,,,,false,false,"0.0"
+DI-8.1.2.2,"HP8DPS",false,"0",,,,,,,,false,false,"0"
+S32-000142,"HP8DPSState",false,"0",,,,,,,,false,false,"0"
+DI-0.1.2.16,"HP8Fail",false,"0",,,,,,,,false,false,"0"
+C-000178,"HP8FailLocked",true,"0",,,,,,,,false,false,"0"
+C-000179,"HP8FailReset",true,"0",,,,,,,,true,false,"0"
+S32-000099,"HP8FailState",true,"0",,,,,,,,false,false,"0"
+C-000287,"HP8FlowFail",false,"0",,,,,,,,false,false,"0"
+C-000289,"HP8FlowFailReset",false,"0",,,,,,,,true,false,"0"
+F32-000158,"HP8FlowFailTime",false,"0.0",,,,,,,,false,false,"0.0"
+C-000288,"HP8FlowFailed",true,"1",,,,,,,,false,false,"0"
+C-000286,"HP8FlowStable",false,"0",,,,,,,,false,false,"0"
+DO-8.1.2.4,"HP8O",false,"0",,,,,,,,false,false,"0"
+S32-000126,"HP8OnCnt",true,"1",,,,,,,,false,false,"0"
+DO-8.1.2.1,"HP8PumpValve",false,"0",,,,,,,,false,false,"0"
+S32-000143,"HP8PumpValveState",false,"0",,,,,,,,false,false,"0"
+MST-8.0.0.1,"HP8Ready",false,"0",,,,,,,"Module Ready",false,false,"0"
+C-000282,"HP8S/S",false,"0",,,,,,,,false,false,"0"
+S32-000138,"HP8State",false,"0",,,,,,,,false,false,"0"
+S32-000134,"HP8StgCnt",false,"0",,,,,,,,false,false,"0"
+AIF32-8.1.1.2,"HP8WellWtrTOut",false,"0.0",,,,,,,,false,false,"0.0"
+DO-8.1.2.2,"HP8Y1",false,"0",,,,,,,,false,false,"0"
+DO-8.1.2.3,"HP8Y2",false,"0",,,,,,,,false,false,"0"
+C-000274,"HP8aAvail",true,"1",,,,,,,,true,false,"0"
+C-000275,"HP8aFailLocked",true,"0",,,,,,,,false,false,"0"
+C-000284,"HP8aOff",false,"0",,,,,,,,false,false,"0"
+F32-000149,"HP8aOffTime",true,"2.0920043",,,,,,,,false,false,"0.0"
+C-000276,"HP8aOn",false,"0",,,,,,,,true,false,"0"
+F32-000150,"HP8aOnTime",false,"0.0",,,,,,,,false,false,"0.0"
+F32-000156,"HP8aOnTimeTotal",true,"18.759056",,,,,,,,false,false,"0.0"
+C-000277,"HP8aS/S",false,"0",,,,,,,,false,false,"0"
+S32-000136,"HP8aState",false,"0",,,,,,,,false,false,"0"
+C-000278,"HP8bAvail",true,"1",,,,,,,,true,false,"0"
+C-000279,"HP8bFailLocked",true,"0",,,,,,,,false,false,"0"
+C-000285,"HP8bOff",false,"0",,,,,,,,false,false,"0"
+F32-000151,"HP8bOffTime",true,"0.0",,,,,,,,false,false,"0.0"
+C-000280,"HP8bOn",false,"0",,,,,,,,false,false,"0"
+F32-000152,"HP8bOnTime",false,"0.0",,,,,,,,false,false,"0.0"
+F32-000157,"HP8bOnTimeTotal",true,"31.657154",,,,,,,,false,false,"0.0"
+C-000281,"HP8bS/S",false,"0",,,,,,,,false,false,"0"
+S32-000137,"HP8bState",false,"0",,,,,,,,false,false,"0"
+F32-000043,"HPDT",false,"0.0",,,,,,,,false,false,"0.0"
+F32-000057,"HPDeficit",false,"0.0",,,,,,,,false,false,"0.0"
+F32-000092,"HPDeficitAvg",false,"0.0",,,,,,,,false,false,"0.0"
+F32-000093,"HPDeficitTimer",false,"0.0",,,,,,,,false,false,"0.0"
+C-000200,"HPDeficitTimerDone",false,"0",,,,,,,,false,false,"0"
+C-000045,"HPRun",false,"0",,,,,,,,false,false,"0"
+C-000052,"HPStart",false,"0",,,,,,,,false,false,"0"
+C-000188,"HPStartBlock",false,"0",,,,,,,,false,false,"0"
+C-000252,"HPStartBlock2",false,"0",,,,,,,,false,false,"0"
+S32-000073,"HPStartCount",false,"0",,,,,,,,false,false,"0"
+S32-000140,"HPStartState",false,"0",,,,,,,,false,false,"0"
+C-000059,"HPStop",false,"0",,,,,,,,false,false,"0"
+C-000187,"HPStopBlock",false,"0",,,,,,,,false,false,"0"
+C-000295,"HPStopPause",false,"0",,,,,,,,false,false,"0"
+S32-000139,"HPStopState",false,"0",,,,,,,,false,false,"0"
+F32-000142,"HPsDeficit",false,"0.0",,,,,,,,false,false,"0.0"
+S32-000043,"HPsRunning",false,"0",,,,,,,,false,false,"0"
+C-000196,"HPsWeakLatch",false,"0",,,,,,,,false,false,"0"
+C-000197,"HPsWeakReset",false,"0",,,,,,,,true,false,"0"
+S32-000102,"HPsWeakTimer",false,"0",,,,,,,,false,false,"0"
+C-000195,"HPsWeakTimerTrue",false,"0",,,,,,,,false,false,"0"
+AIF32-0.1.1.6,"HTPmpOutTemp",false,"0.0",,,,,,,,false,false,"0.0"
+F32-000045,"HexDT",false,"0.0",,,,,,,,false,false,"0.0"
+S32-000009,"High",false,"0",,,,,,,,false,false,"0"
+S32-000010,"HighHigh",false,"0",,,,,,,,false,false,"0"
+F32-000084,"HourTimer",false,"0.0",,,,,,,,false,false,"0.0"
+C-000157,"HourTimerDone",false,"0",,,,,,,,false,false,"0"
+DO-0.1.4.7,"HtPmpHt/CL",false,"0",,,,,,,,false,false,"0"
+F32-000101,"HtPmpOutTempAvg",false,"0.0",,,,,,,,false,false,"0.0"
+SBR-001015,"I/O Configuration Error",false,"0",,,,,,,"On if actual I/O configuration and project I/O configuration do not match",,,
+SBR-001014,"I/O Error",false,"0",,,,,,,"On for any module error (such as a blown fuse)",,,
+SWRW-001758,"Identify Module Base Number",false,"0",,,,,,,"base number of module to be identified (See ""Requested Module Name"" tag)",,,
+SWRW-001757,"Identify Module Group Number",false,"0",,,,,,,"group number of module to be identified (See ""Requested Module Name"" tag)",,,
+SBRW-001005,"Identify Module Request bit",false,"0",,,,,,,"set On to refresh ""Requested Module Name"" tag per the 3 ""Identify"" GBS tags",,,
+SWRW-001759,"Identify Module Slot Number",false,"0",,,,,,,"slot number of module to be identified (See ""Requested Module Name"" tag)",,,
+C-000223,"InProgress",false,"0",,,,,,,,false,false,"0"
+S32-000086,"InegratorCount",false,"0",,,,,,,,false,false,"0"
+SBRW-001002,"Initiate_New_Date",false,"0",,,,,,,"set On to change clock date (see ""Clock Year Set"" tag)",,,
+SBRW-001001,"Initiate_New_Time",false,"0",,,,,,,"set On to change clock time (see ""Clock Hours Set"" tag)",,,
+C-000158,"IntegratorCountDone",false,"0",,,,,,,,false,false,"0"
+C-000006,"IsDevOrange",false,"0",,,,,,,,false,false,"0"
+C-000007,"IsDevYellow",false,"0",,,,,,,,false,false,"0"
+C-000008,"IsHigh",false,"0",,,,,,,,false,false,"0"
+C-000009,"IsHighHigh",false,"0",,,,,,,,false,false,"0"
+C-000010,"IsLow",false,"0",,,,,,,,false,false,"0"
+C-000011,"IsLowLow",false,"0",,,,,,,,false,false,"0"
+C-000012,"IsRateChange",false,"0",,,,,,,,false,false,"0"
+S32-000091,"KWHCume",true,"816591",,,,,,,,false,false,"0"
+S32-000092,"KWHInteger",false,"0",,,,,,,,false,false,"0"
+F32-000063,"LagDiff",false,"0.0",,,,,,,,false,false,"0.0"
+SWR-001504,"Last Logic Scan Time [x100=usec]",false,"0",,,,,,,"most recent logic scan time",,,
+SWR-001501,"Last Scan Interval [x100=usec]",false,"0",,,,,,,"most recent overall scan time",,,
+F32-000082,"LastSeconds",false,"0.0",,,,,,,,false,false,"0.0"
+DI-0.1.2.3,"LeakDetect",false,"0",,,,,,,,false,false,"0"
+C-000060,"LeakFail",true,"0",,,,,,,,false,false,"0"
+C-000079,"LeakFailReset",true,"0",,,,,,,,true,false,"0"
+F32-000127,"LinearPiece",false,"0.0",,,,,,,,false,false,"0.0"
+S32-000011,"Low",false,"0",,,,,,,,false,false,"0"
+S32-000012,"LowLow",false,"0",,,,,,,,false,false,"0"
+C-000255,"LowPressFailLatch",true,"0",,,,,,,,false,false,"0"
+C-000257,"LowPressFailReset",false,"0",,,,,,,,true,false,"0"
+F32-000126,"LowPressFailTimer",false,"0.0",,,,,,,,false,false,"0.0"
+C-000256,"LowPressFailTimerTrue",true,"0",,,,,,,,false,false,"0"
+C-000254,"LowPressLatch",false,"0",,,,,,,,false,false,"0"
+S32-000116,"LowPressTimer",false,"0",,,,,,,,false,false,"0"
+C-000253,"LowPressTimerTrue",false,"0",,,,,,,,false,false,"0"
+S16-000002,"MBusRead1",false,"0",,,,,,,,false,false,"0"
+S16-000001,"MBusRead10",false,"0",,,,,,,,false,false,"0"
+S16-000003,"MBusRead2",false,"0",,,,,,,,false,false,"0"
+S16-000004,"MBusRead3",false,"0",,,,,,,,false,false,"0"
+S16-000006,"MBusRead5",false,"0",,,,,,,,false,false,"0"
+S16-000007,"MBusRead6",false,"0",,,,,,,,false,false,"0"
+S16-000008,"MBusRead7",false,"0",,,,,,,,false,false,"0"
+S16-000009,"MBusRead8",false,"0",,,,,,,,false,false,"0"
+S16-000010,"MBusRead9",false,"0",,,,,,,,false,false,"0"
+MST-0.0.0.1,"MST-0.0.0.1",false,"0",,,,,,,"RS232 Heartbeat Timeout Bit",false,false,"0"
+MST-0.0.0.2,"MST-0.0.0.2",false,"0",,,,,,,"RS232 Port Buffer Full Bit (95% Full)",false,false,"0"
+MST-0.0.0.3,"MST-0.0.0.3",false,"0",,,,,,,"RS232 Port Ready Bit",false,false,"0"
+MST-0.0.0.33,"MST-0.0.0.33",false,"0",,,,,,,"RS485 Heartbeat Timeout Bit",false,false,"0"
+MST-0.0.0.34,"MST-0.0.0.34",false,"0",,,,,,,"RS485 Port Buffer Full Bit (95% Full)",false,false,"0"
+MST-0.0.0.35,"MST-0.0.0.35",false,"0",,,,,,,"RS485 Port Ready Bit",false,false,"0"
+MST-0.0.0.65,"MST-0.0.0.65",false,"0",,,,,,,"Ethernet Heartbeat Timeout Bit",false,false,"0"
+MST-0.0.0.66,"MST-0.0.0.66",false,"0",,,,,,,"Ethernet Port Buffer Full Bit (95% Full)",false,false,"0"
+MST-0.0.0.67,"MST-0.0.0.67",false,"0",,,,,,,"Ethernet Port Ready Bit",false,false,"0"
+MST-0.1.1.25,"MST-0.1.1.25",false,"0",,,,,,,"Module Failed",false,false,"0"
+MST-0.1.1.27,"MST-0.1.1.27",false,"0",,,,,,,"Module Not Ready",false,false,"0"
+MST-0.1.1.41,"MST-0.1.1.41",false,"0",,,,,,,"Burnout Error (1)",false,false,"0"
+MST-0.1.1.42,"MST-0.1.1.42",false,"0",,,,,,,"Burnout Error (2)",false,false,"0"
+MST-0.1.1.43,"MST-0.1.1.43",false,"0",,,,,,,"Burnout Error (3)",false,false,"0"
+MST-0.1.1.44,"MST-0.1.1.44",false,"0",,,,,,,"Burnout Error (4)",false,false,"0"
+MST-0.1.1.45,"MST-0.1.1.45",false,"0",,,,,,,"Burnout Error (5)",false,false,"0"
+MST-0.1.1.46,"MST-0.1.1.46",false,"0",,,,,,,"Burnout Error (6)",false,false,"0"
+MST-0.1.1.47,"MST-0.1.1.47",false,"0",,,,,,,"Burnout Error (7)",false,false,"0"
+MST-0.1.1.48,"MST-0.1.1.48",false,"0",,,,,,,"Burnout Error (8)",false,false,"0"
+MST-0.1.1.57,"MST-0.1.1.57",false,"0",,,,,,,"Under Range Error (1)",false,false,"0"
+MST-0.1.1.58,"MST-0.1.1.58",false,"0",,,,,,,"Under Range Error (2)",false,false,"0"
+MST-0.1.1.59,"MST-0.1.1.59",false,"0",,,,,,,"Under Range Error (3)",false,false,"0"
+MST-0.1.1.60,"MST-0.1.1.60",false,"0",,,,,,,"Under Range Error (4)",false,false,"0"
+MST-0.1.1.61,"MST-0.1.1.61",false,"0",,,,,,,"Under Range Error (5)",false,false,"0"
+MST-0.1.1.62,"MST-0.1.1.62",false,"0",,,,,,,"Under Range Error (6)",false,false,"0"
+MST-0.1.1.63,"MST-0.1.1.63",false,"0",,,,,,,"Under Range Error (7)",false,false,"0"
+MST-0.1.1.64,"MST-0.1.1.64",false,"0",,,,,,,"Under Range Error (8)",false,false,"0"
+MST-0.1.1.89,"MST-0.1.1.89",false,"0",,,,,,,"Over Range Error (1)",false,false,"0"
+MST-0.1.1.90,"MST-0.1.1.90",false,"0",,,,,,,"Over Range Error (2)",false,false,"0"
+MST-0.1.1.91,"MST-0.1.1.91",false,"0",,,,,,,"Over Range Error (3)",false,false,"0"
+MST-0.1.1.92,"MST-0.1.1.92",false,"0",,,,,,,"Over Range Error (4)",false,false,"0"
+MST-0.1.1.93,"MST-0.1.1.93",false,"0",,,,,,,"Over Range Error (5)",false,false,"0"
+MST-0.1.1.94,"MST-0.1.1.94",false,"0",,,,,,,"Over Range Error (6)",false,false,"0"
+MST-0.1.1.95,"MST-0.1.1.95",false,"0",,,,,,,"Over Range Error (7)",false,false,"0"
+MST-0.1.1.96,"MST-0.1.1.96",false,"0",,,,,,,"Over Range Error (8)",false,false,"0"
+MST-0.1.3.25,"MST-0.1.3.25",false,"0",,,,,,,"Module Failed",false,false,"0"
+MST-0.1.3.26,"MST-0.1.3.26",false,"0",,,,,,,"Missing 24V",false,false,"0"
+MST-0.1.3.57,"MST-0.1.3.57",false,"0",,,,,,,"Under Range Error (1)",false,false,"0"
+MST-0.1.3.58,"MST-0.1.3.58",false,"0",,,,,,,"Under Range Error (2)",false,false,"0"
+MST-0.1.3.59,"MST-0.1.3.59",false,"0",,,,,,,"Under Range Error (3)",false,false,"0"
+MST-0.1.3.60,"MST-0.1.3.60",false,"0",,,,,,,"Under Range Error (4)",false,false,"0"
+MST-0.1.3.89,"MST-0.1.3.89",false,"0",,,,,,,"Over Range Error (1)",false,false,"0"
+MST-0.1.3.90,"MST-0.1.3.90",false,"0",,,,,,,"Over Range Error (2)",false,false,"0"
+MST-0.1.3.91,"MST-0.1.3.91",false,"0",,,,,,,"Over Range Error (3)",false,false,"0"
+MST-0.1.3.92,"MST-0.1.3.92",false,"0",,,,,,,"Over Range Error (4)",false,false,"0"
+MST-0.1.5.25,"MST-0.1.5.25",false,"0",,,,,,,"Module Failed",false,false,"0"
+MST-0.1.5.26,"MST-0.1.5.26",false,"0",,,,,,,"Missing 24V",false,false,"0"
+MST-0.1.6.25,"MST-0.1.6.25",false,"0",,,,,,,"Module Failed",false,false,"0"
+MST-0.1.6.26,"MST-0.1.6.26",false,"0",,,,,,,"Missing 24V",false,false,"0"
+MST-0.1.6.57,"MST-0.1.6.57",false,"0",,,,,,,"Under Range Error (1)",false,false,"0"
+MST-0.1.6.58,"MST-0.1.6.58",false,"0",,,,,,,"Under Range Error (2)",false,false,"0"
+MST-0.1.6.59,"MST-0.1.6.59",false,"0",,,,,,,"Under Range Error (3)",false,false,"0"
+MST-0.1.6.60,"MST-0.1.6.60",false,"0",,,,,,,"Under Range Error (4)",false,false,"0"
+MST-0.1.6.61,"MST-0.1.6.61",false,"0",,,,,,,"Under Range Error (5)",false,false,"0"
+MST-0.1.6.62,"MST-0.1.6.62",false,"0",,,,,,,"Under Range Error (6)",false,false,"0"
+MST-0.1.6.63,"MST-0.1.6.63",false,"0",,,,,,,"Under Range Error (7)",false,false,"0"
+MST-0.1.6.64,"MST-0.1.6.64",false,"0",,,,,,,"Under Range Error (8)",false,false,"0"
+MST-0.1.6.89,"MST-0.1.6.89",false,"0",,,,,,,"Over Range Error (1)",false,false,"0"
+MST-0.1.6.90,"MST-0.1.6.90",false,"0",,,,,,,"Over Range Error (2)",false,false,"0"
+MST-0.1.6.91,"MST-0.1.6.91",false,"0",,,,,,,"Over Range Error (3)",false,false,"0"
+MST-0.1.6.92,"MST-0.1.6.92",false,"0",,,,,,,"Over Range Error (4)",false,false,"0"
+MST-0.1.6.93,"MST-0.1.6.93",false,"0",,,,,,,"Over Range Error (5)",false,false,"0"
+MST-0.1.6.94,"MST-0.1.6.94",false,"0",,,,,,,"Over Range Error (6)",false,false,"0"
+MST-0.1.6.95,"MST-0.1.6.95",false,"0",,,,,,,"Over Range Error (7)",false,false,"0"
+MST-0.1.6.96,"MST-0.1.6.96",false,"0",,,,,,,"Over Range Error (8)",false,false,"0"
+F32-000069,"MarginalHeatIn",false,"0.0",,,,,,,,false,false,"0.0"
+F32-000066,"MarginalHeatOut",false,"0.0",,,,,,,,false,false,"0.0"
+S16-000005,"MbusRead4",false,"0",,,,,,,,false,false,"0"
+S32-000013,"MinAlarmHyst",false,"0",,,,,,,,false,false,"0"
+S32-000014,"MinAutoSetPoint",false,"0",,,,,,,,false,false,"0"
+S32-000015,"MinBiasTerm",false,"0",,,,,,,,false,false,"0"
+S32-000016,"MinDeadband",false,"0",,,,,,,,false,false,"0"
+S32-000017,"MinDerivLimit",false,"0",,,,,,,,false,false,"0"
+S32-000018,"MinDevOrange",false,"0",,,,,,,,false,false,"0"
+S32-000019,"MinDevYellow",false,"0",,,,,,,,false,false,"0"
+F32-000129,"MinDiffPAvg",false,"0.0",,,,,,,,false,false,"0.0"
+C-000013,"MinErrorSq",false,"0",,,,,,,,false,false,"0"
+S32-000020,"MinGain",false,"0",,,,,,,,false,false,"0"
+S32-000021,"MinHigh",false,"0",,,,,,,,false,false,"0"
+S32-000022,"MinHighHigh",false,"0",,,,,,,,false,false,"0"
+C-000014,"MinIsDevOrange",false,"0",,,,,,,,false,false,"0"
+C-000015,"MinIsDevYellow",false,"0",,,,,,,,false,false,"0"
+C-000016,"MinIsHigh",false,"0",,,,,,,,false,false,"0"
+C-000017,"MinIsHighHigh",false,"0",,,,,,,,false,false,"0"
+C-000018,"MinIsLow",false,"0",,,,,,,,false,false,"0"
+C-000019,"MinIsLowLow",false,"0",,,,,,,,false,false,"0"
+C-000020,"MinIsRateChange",false,"0",,,,,,,,false,false,"0"
+S32-000023,"MinLow",false,"0",,,,,,,,false,false,"0"
+S32-000024,"MinLowLow",false,"0",,,,,,,,false,false,"0"
+S32-000025,"MinOutLowerLim",false,"0",,,,,,,,false,false,"0"
+S32-000027,"MinOutRangeMax",false,"0",,,,,,,,false,false,"0"
+S32-000028,"MinOutRangeMin",false,"0",,,,,,,,false,false,"0"
+S32-000029,"MinOutUpperLim",false,"0",,,,,,,,false,false,"0"
+S32-000026,"MinOutput",false,"0",,,,,,,,false,false,"0"
+F32-000130,"MinPOut",false,"0.0",,,,,,,,false,false,"0.0"
+S32-000031,"MinProcOutPcnt",false,"0",,,,,,,,false,false,"0"
+S32-000030,"MinProcessVar",false,"0",,,,,,,,false,false,"0"
+S32-000032,"MinRate",false,"0",,,,,,,,false,false,"0"
+S32-000033,"MinRateChange",false,"0",,,,,,,,false,false,"0"
+S32-000034,"MinReset",false,"0",,,,,,,,false,false,"0"
+S32-000036,"MinSPAccelGain",false,"0",,,,,,,,false,false,"0"
+S32-000035,"MinSampleRate",false,"0",,,,,,,,false,false,"0"
+C-000228,"ModbusTCPRead.Complete",false,"0",,,,,,,,false,false,"0"
+C-000230,"ModbusTCPRead.Error",false,"0",,,,,,,,false,false,"0"
+STR-000002,"ModbusTCPRead.ExcResponse",false,,,,15,,,,,,,
+C-000227,"ModbusTCPRead.InProgress",false,"0",,,,,,,,false,false,"0"
+C-000229,"ModbusTCPRead.Success",false,"0",,,,,,,,false,false,"0"
+C-000231,"ModbusTCPRead.Timeout",false,"0",,,,,,,,false,false,"0"
+C-000233,"ModbusTCPRead1.Complete",false,"0",,,,,,,,false,false,"0"
+C-000235,"ModbusTCPRead1.Error",false,"0",,,,,,,,false,false,"0"
+STR-000003,"ModbusTCPRead1.ExcResponse",false,,,,15,,,,,,,
+C-000232,"ModbusTCPRead1.InProgress",false,"0",,,,,,,,false,false,"0"
+C-000234,"ModbusTCPRead1.Success",false,"0",,,,,,,,false,false,"0"
+C-000236,"ModbusTCPRead1.Timeout",false,"0",,,,,,,,false,false,"0"
+C-000238,"ModbusTCPRead2.Complete",false,"0",,,,,,,,false,false,"0"
+C-000240,"ModbusTCPRead2.Error",false,"0",,,,,,,,false,false,"0"
+STR-000004,"ModbusTCPRead2.ExcResponse",false,,,,15,,,,,,,
+C-000237,"ModbusTCPRead2.InProgress",false,"0",,,,,,,,false,false,"0"
+C-000239,"ModbusTCPRead2.Success",false,"0",,,,,,,,false,false,"0"
+C-000241,"ModbusTCPRead2.Timeout",false,"0",,,,,,,,false,false,"0"
+C-000243,"ModbusTCPRead3.Complete",false,"0",,,,,,,,false,false,"0"
+C-000245,"ModbusTCPRead3.Error",false,"0",,,,,,,,false,false,"0"
+STR-000005,"ModbusTCPRead3.ExcResponse",false,,,,15,,,,,,,
+C-000242,"ModbusTCPRead3.InProgress",false,"0",,,,,,,,false,false,"0"
+C-000244,"ModbusTCPRead3.Success",false,"0",,,,,,,,false,false,"0"
+C-000246,"ModbusTCPRead3.Timeout",false,"0",,,,,,,,false,false,"0"
+C-000248,"ModbusTCPRead4.Complete",false,"0",,,,,,,,false,false,"0"
+C-000250,"ModbusTCPRead4.Error",false,"0",,,,,,,,false,false,"0"
+STR-000006,"ModbusTCPRead4.ExcResponse",false,,,,15,,,,,,,
+C-000247,"ModbusTCPRead4.InProgress",false,"0",,,,,,,,false,false,"0"
+C-000249,"ModbusTCPRead4.Success",false,"0",,,,,,,,false,false,"0"
+C-000251,"ModbusTCPRead4.Timeout",false,"0",,,,,,,,false,false,"0"
+C-000150,"NKUM",true,"0",,,,,,,,false,false,"0"
+C-000151,"NKUMOn",false,"0",,,,,,,,false,false,"0"
+AIS32-0.1.6.3,"NeutralRaw",false,"0",,,,,,,,false,false,"0"
+SBR-001013,"Noncritical Error Bit",false,"0",,,,,,,"On when a noncritical error is active",,,
+SWR-000021,"Noncritical Error Log 01",false,"0",,,,,,,"most recent noncritical error",,,
+SWR-000022,"Noncritical Error Log 02",false,"0",,,,,,,"2nd most recent noncritical error",,,
+SWR-000023,"Noncritical Error Log 03",false,"0",,,,,,,"3rd most recent noncritical error",,,
+SWR-000024,"Noncritical Error Log 04",false,"0",,,,,,,"4th most recent noncritical error",,,
+SWR-000025,"Noncritical Error Log 05",false,"0",,,,,,,"5th most recent noncritical error",,,
+SWR-000026,"Noncritical Error Log 06",false,"0",,,,,,,"6th most recent noncritical error",,,
+SWR-000027,"Noncritical Error Log 07",false,"0",,,,,,,"7th most recent noncritical error",,,
+SWR-000028,"Noncritical Error Log 08",false,"0",,,,,,,"8th most recent noncritical error",,,
+SWR-000029,"Noncritical Error Log 09",false,"0",,,,,,,"9th most recent noncritical error",,,
+SWR-000030,"Noncritical Error Log 10",false,"0",,,,,,,"10th most recent noncritical error",,,
+SWR-000031,"Noncritical Error Log 11",false,"0",,,,,,,"11th most recent noncritical error",,,
+SWR-000032,"Noncritical Error Log 12",false,"0",,,,,,,"12th most recent noncritical error",,,
+SWR-000033,"Noncritical Error Log 13",false,"0",,,,,,,"13th most recent noncritical error",,,
+SWR-000034,"Noncritical Error Log 14",false,"0",,,,,,,"14th most recent noncritical error",,,
+SWR-000035,"Noncritical Error Log 15",false,"0",,,,,,,"15th most recent noncritical error",,,
+SWR-000036,"Noncritical Error Log 16",false,"0",,,,,,,"16th most recent noncritical error",,,
+SWR-000037,"Noncritical Error Log 17",false,"0",,,,,,,"17th most recent noncritical error",,,
+SWR-000038,"Noncritical Error Log 18",false,"0",,,,,,,"18th most recent noncritical error",,,
+SWR-000039,"Noncritical Error Log 19",false,"0",,,,,,,"19th most recent noncritical error",,,
+SWR-000040,"Noncritical Error Log 20",false,"0",,,,,,,"20th most recent noncritical error",,,
+SSTR-000021,"Noncritical Error Log String 01",false,,,,50,,,,"most recent noncritical error message",,,
+SSTR-000022,"Noncritical Error Log String 02",false,,,,50,,,,"2nd most recent noncritical error message",,,
+SSTR-000023,"Noncritical Error Log String 03",false,,,,50,,,,"3rd most recent noncritical error message",,,
+SSTR-000024,"Noncritical Error Log String 04",false,,,,50,,,,"4th most recent noncritical error message",,,
+SSTR-000025,"Noncritical Error Log String 05",false,,,,50,,,,"5th most recent noncritical error message",,,
+SSTR-000026,"Noncritical Error Log String 06",false,,,,50,,,,"6th most recent noncritical error message",,,
+SSTR-000027,"Noncritical Error Log String 07",false,,,,50,,,,"7th most recent noncritical error message",,,
+SSTR-000028,"Noncritical Error Log String 08",false,,,,50,,,,"8th most recent noncritical error message",,,
+SSTR-000029,"Noncritical Error Log String 09",false,,,,50,,,,"9th most recent noncritical error message",,,
+SSTR-000030,"Noncritical Error Log String 10",false,,,,50,,,,"10th most recent noncritical error message",,,
+SSTR-000031,"Noncritical Error Log String 11",false,,,,50,,,,"11th most recent noncritical error message",,,
+SSTR-000032,"Noncritical Error Log String 12",false,,,,50,,,,"12th most recent noncritical error message",,,
+SSTR-000033,"Noncritical Error Log String 13",false,,,,50,,,,"13th most recent noncritical error message",,,
+SSTR-000034,"Noncritical Error Log String 14",false,,,,50,,,,"14th most recent noncritical error message",,,
+SSTR-000035,"Noncritical Error Log String 15",false,,,,50,,,,"15th most recent noncritical error message",,,
+SSTR-000036,"Noncritical Error Log String 16",false,,,,50,,,,"16th most recent noncritical error message",,,
+SSTR-000037,"Noncritical Error Log String 17",false,,,,50,,,,"17th most recent noncritical error message",,,
+SSTR-000038,"Noncritical Error Log String 18",false,,,,50,,,,"18th most recent noncritical error message",,,
+SSTR-000039,"Noncritical Error Log String 19",false,,,,50,,,,"19th most recent noncritical error message",,,
+SSTR-000040,"Noncritical Error Log String 20",false,,,,50,,,,"20th most recent noncritical error message",,,
+S32-000104,"NotTooColdTime",false,"0",,,,,,,,false,false,"0"
+C-000203,"NotTooColdTimePassed",false,"0",,,,,,,,false,false,"0"
+SWRW-000251,"Number of Critical Errors",false,"0",,,,,,,"number of critical errors",,,
+SWRW-000252,"Number of Non-critical Errors",false,"0",,,,,,,"number of noncritical errors",,,
+C-000207,"OA2ColdEnd",false,"0",,,,,,,,false,false,"0"
+F32-000095,"OA2ColdEndTmr",false,"0.0",,,,,,,,false,false,"0.0"
+C-000208,"OA2ColdEndTmrTrue",false,"0",,,,,,,,false,false,"0"
+F32-000096,"OA2HotEndTmr",false,"0.0",,,,,,,,false,false,"0.0"
+AIF32-0.1.1.1,"OATemp",false,"0.0",,,,,,,,false,false,"0.0"
+F32-000091,"OATempAvg30min",true,"70.081535",,,,,,,,false,false,"0.0"
+C-000191,"OATooCold",false,"0",,,,,,,,false,false,"0"
+C-000205,"OATooColdNoRecover",false,"0",,,,,,,,false,false,"0"
+C-000192,"OATooHot",false,"0",,,,,,,,false,false,"0"
+AR1F32-000001(1),"OffTimeArray(1)",FALSE,"0.0",,,,,10,,,,,
+AR1F32-000001(2),"OffTimeArray(2)",FALSE,"0.0",,,,,,,,,,
+AR1F32-000001(3),"OffTimeArray(3)",FALSE,"0.0",,,,,,,,,,
+AR1F32-000001(4),"OffTimeArray(4)",FALSE,"0.0",,,,,,,,,,
+AR1F32-000001(5),"OffTimeArray(5)",FALSE,"0.0",,,,,,,,,,
+AR1F32-000001(6),"OffTimeArray(6)",FALSE,"0.0",,,,,,,,,,
+AR1F32-000001(7),"OffTimeArray(7)",FALSE,"0.0",,,,,,,,,,
+AR1F32-000001(8),"OffTimeArray(8)",FALSE,"0.0",,,,,,,,,,
+AR1F32-000001(9),"OffTimeArray(9)",FALSE,"0.0",,,,,,,,,,
+AR1F32-000001(10),"OffTimeArray(10)",FALSE,"0.0",,,,,,,,,,
+AR1F32-000008(1),"OffTimeArrayWas(1)",FALSE,"0.0",,,,,10,,,,,
+AR1F32-000008(2),"OffTimeArrayWas(2)",FALSE,"0.0",,,,,,,,,,
+AR1F32-000008(3),"OffTimeArrayWas(3)",FALSE,"0.0",,,,,,,,,,
+AR1F32-000008(4),"OffTimeArrayWas(4)",FALSE,"0.0",,,,,,,,,,
+AR1F32-000008(5),"OffTimeArrayWas(5)",FALSE,"0.0",,,,,,,,,,
+AR1F32-000008(6),"OffTimeArrayWas(6)",FALSE,"0.0",,,,,,,,,,
+AR1F32-000008(7),"OffTimeArrayWas(7)",FALSE,"0.0",,,,,,,,,,
+AR1F32-000008(8),"OffTimeArrayWas(8)",FALSE,"0.0",,,,,,,,,,
+AR1F32-000008(9),"OffTimeArrayWas(9)",FALSE,"0.0",,,,,,,,,,
+AR1F32-000008(10),"OffTimeArrayWas(10)",FALSE,"0.0",,,,,,,,,,
+F32-000017,"OffTimeMax",false,"0.0",,,,,,,,false,false,"0.0"
+AR1F32-000002(1),"OnTimeArray(1)",FALSE,"0.0",,,,,10,,,,,
+AR1F32-000002(2),"OnTimeArray(2)",FALSE,"0.0",,,,,,,,,,
+AR1F32-000002(3),"OnTimeArray(3)",FALSE,"0.0",,,,,,,,,,
+AR1F32-000002(4),"OnTimeArray(4)",FALSE,"0.0",,,,,,,,,,
+AR1F32-000002(5),"OnTimeArray(5)",FALSE,"0.0",,,,,,,,,,
+AR1F32-000002(6),"OnTimeArray(6)",FALSE,"0.0",,,,,,,,,,
+AR1F32-000002(7),"OnTimeArray(7)",FALSE,"0.0",,,,,,,,,,
+AR1F32-000002(8),"OnTimeArray(8)",FALSE,"0.0",,,,,,,,,,
+AR1F32-000002(9),"OnTimeArray(9)",FALSE,"0.0",,,,,,,,,,
+AR1F32-000002(10),"OnTimeArray(10)",FALSE,"0.0",,,,,,,,,,
+AR1F32-000009(1),"OnTimeArrayWas(1)",FALSE,"0.0",,,,,10,,,,,
+AR1F32-000009(2),"OnTimeArrayWas(2)",FALSE,"0.0",,,,,,,,,,
+AR1F32-000009(3),"OnTimeArrayWas(3)",FALSE,"0.0",,,,,,,,,,
+AR1F32-000009(4),"OnTimeArrayWas(4)",FALSE,"0.0",,,,,,,,,,
+AR1F32-000009(5),"OnTimeArrayWas(5)",FALSE,"0.0",,,,,,,,,,
+AR1F32-000009(6),"OnTimeArrayWas(6)",FALSE,"0.0",,,,,,,,,,
+AR1F32-000009(7),"OnTimeArrayWas(7)",FALSE,"0.0",,,,,,,,,,
+AR1F32-000009(8),"OnTimeArrayWas(8)",FALSE,"0.0",,,,,,,,,,
+AR1F32-000009(9),"OnTimeArrayWas(9)",FALSE,"0.0",,,,,,,,,,
+AR1F32-000009(10),"OnTimeArrayWas(10)",FALSE,"0.0",,,,,,,,,,
+F32-000027,"OnTimeMax",false,"0.0",,,,,,,,false,false,"0.0"
+S32-000120,"P1-2-S/SState",false,"0",,,,,,,,false,false,"0"
+S32-000108,"P1-2RPM",false,"0",,,,,,,,false,false,"0"
+C-000096,"P1Avail",true,"1",,,,,,,,true,false,"0"
+C-000137,"P1Fail",false,"0",,,,,,,,false,false,"0"
+C-000140,"P1FailLocked",true,"0",,,,,,,,false,false,"0"
+C-000139,"P1FailReset",false,"0",,,,,,,,true,false,"0"
+S16-000023,"P1MBAnIn1x100",false,"0",,,,,,,,false,false,"0"
+S16-000024,"P1MBCurrentx10",false,"0",,,,,,,,false,false,"0"
+S16-000025,"P1MBDCLinkV",false,"0",,,,,,,,false,false,"0"
+S16-000026,"P1MBFreqx100",false,"0",,,,,,,,false,false,"0"
+S16-000027,"P1MBMTempx10",false,"0",,,,,,,,false,false,"0"
+S16-000028,"P1MBPowerx10",false,"0",,,,,,,,false,false,"0"
+S16-000029,"P1MBSpeed",false,"0",,,,,,,,false,false,"0"
+S16-000030,"P1MBTorquex10",false,"0",,,,,,,,false,false,"0"
+S16-000031,"P1MBUTempx10",false,"0",,,,,,,,false,false,"0"
+S16-000032,"P1MBVoltsx10",false,"0",,,,,,,,false,false,"0"
+F32-000037,"P1OffTime",true,"5.1458335",,,,,,,,false,false,"0.0"
+F32-000040,"P1OnTime",true,"0.0",,,,,,,,false,false,"0.0"
+S32-000121,"P1OnTimeB",false,"0",,,,,,,,false,false,"0"
+F32-000036,"P1OnTimeTotal",true,"889.16724",,,,,,,,false,false,"0.0"
+DO-0.1.4.1,"P1S/S",false,"0",,,,,,,,false,false,"0"
+S32-000074,"P1S/SState",false,"0",,,,,,,,false,false,"0"
+AOS32-0.1.5.5,"P1Speed",false,"0",,,,,,,,false,false,"0"
+S32-000106,"P1SpeedSet",true,"20000",,,,,,,,true,false,"0"
+C-000099,"P1Stable",false,"0",,,,,,,,false,false,"0"
+C-000029,"P1Start",false,"0",,,,,,,,false,false,"0"
+DI-0.1.2.1,"P1Status",false,"0",,,,,,,,false,false,"0"
+C-000030,"P1Stop",false,"0",,,,,,,,false,false,"0"
+S32-000113,"P1or2Currentx10",false,"0",,,,,,,,false,false,"0"
+F32-000113,"P1or2Freq",false,"0.0",,,,,,,,false,false,"0.0"
+F32-000116,"P1or2FreqRB",false,"0.0",,,,,,,,false,false,"0.0"
+F32-000115,"P1or2Power",false,"0.0",,,,,,,,false,false,"0.0"
+F32-000111,"P1or2RPM-div-10",false,"0.0",,,,,,,,false,false,"0.0"
+S32-000111,"P1or2Run",false,"0",,,,,,,,false,false,"0"
+F32-000112,"P1or2Torque",false,"0.0",,,,,,,,false,false,"0.0"
+F32-000114,"P1or2Volts",false,"0.0",,,,,,,,false,false,"0.0"
+C-000097,"P2Avail",true,"1",,,,,,,,true,false,"0"
+C-000138,"P2Fail",false,"0",,,,,,,,false,false,"0"
+C-000142,"P2FailLocked",true,"0",,,,,,,,false,false,"0"
+C-000141,"P2FailReset",false,"0",,,,,,,,true,false,"0"
+S16-000013,"P2MBAnIn1x100",false,"0",,,,,,,,false,false,"0"
+S16-000014,"P2MBCurrentx10",false,"0",,,,,,,,false,false,"0"
+S16-000015,"P2MBDCLinkV",false,"0",,,,,,,,false,false,"0"
+S16-000016,"P2MBFreqx100",false,"0",,,,,,,,false,false,"0"
+S16-000017,"P2MBMTempx10",false,"0",,,,,,,,false,false,"0"
+S16-000018,"P2MBPowerx10",false,"0",,,,,,,,false,false,"0"
+S16-000019,"P2MBSpeed",false,"0",,,,,,,,false,false,"0"
+S16-000020,"P2MBTorquex10",false,"0",,,,,,,,false,false,"0"
+S16-000021,"P2MBUTempx10",false,"0",,,,,,,,false,false,"0"
+S16-000022,"P2MBVoltsx10",false,"0",,,,,,,,false,false,"0"
+F32-000038,"P2OffTime",true,"0.0",,,,,,,,false,false,"0.0"
+F32-000041,"P2OnTime",true,"0.0",,,,,,,,false,false,"0.0"
+S32-000122,"P2OnTimeB",false,"0",,,,,,,,false,false,"0"
+F32-000035,"P2OnTimeTotal",true,"736.50836",,,,,,,,false,false,"0.0"
+DO-0.1.4.2,"P2S/S",false,"0",,,,,,,,false,false,"0"
+S32-000075,"P2S/SState",false,"0",,,,,,,,false,false,"0"
+AOS32-0.1.5.6,"P2Speed",false,"0",,,,,,,,false,false,"0"
+S32-000107,"P2SpeedSet",true,"32500",,,,,,,,false,false,"0"
+C-000098,"P2Stable",false,"0",,,,,,,,false,false,"0"
+C-000040,"P2Start",false,"0",,,,,,,,false,false,"0"
+DI-0.1.2.2,"P2Status",false,"0",,,,,,,,false,false,"0"
+C-000041,"P2Stop",false,"0",,,,,,,,false,false,"0"
+C-000044,"P3S/S",false,"0",,,,,,,,false,false,"0"
+C-000042,"P3Start",false,"0",,,,,,,,false,false,"0"
+C-000043,"P3Stop",false,"0",,,,,,,,false,false,"0"
+C-000118,"P6Avail",true,"1",,,,,,,,true,false,"0"
+F32-000059,"P6CycleTimeSet",false,"0.0",,,,,,,,false,false,"0.0"
+F32-000058,"P6CycleTimer",false,"0.0",,,,,,,,false,false,"0.0"
+C-000119,"P6CycleTimerDone",false,"0",,,,,,,,false,false,"0"
+C-000147,"P6Dead",true,"0",,,,,,,,true,false,"0"
+C-000214,"P6ExerciseTrue",false,"0",,,,,,,,true,false,"0"
+C-000294,"P6Forced",false,"0",,,,,,,,true,false,"0"
+F32-000056,"P6OffTime",true,"116.95639",,,,,,,,false,false,"0.0"
+C-000148,"P6OffTimeHigh",true,"0",,,,,,,,false,false,"0"
+C-000120,"P6On",false,"0",,,,,,,,false,false,"0"
+C-000201,"P6On4Stg8",false,"0",,,,,,,,false,false,"0"
+C-000146,"P6OverRide",true,"0",,,,,,,,true,false,"0"
+F32-000075,"P6OverRideTime",true,"0.0",,,,,,,,false,false,"0.0"
+DO-0.1.4.3,"P6S/S",false,"0",,,,,,,,false,false,"0"
+S32-000078,"P6S/SState",false,"0",,,,,,,,false,false,"0"
+F32-000097,"P6Spd0Tmr",true,"22.818611",,,,,,,,false,false,"0.0"
+C-000210,"P6SpdGT0",false,"0",,,,,,,,false,false,"0"
+C-000211,"P6SpdNow0",false,"0",,,,,,,,false,false,"0"
+C-000202,"P6SpdOverride",false,"0",,,,,,,,true,false,"0"
+F32-000134,"P6SpdPIDGain",true,"4.0E-6",,,,,,,,false,false,"0.0"
+F32-000140,"P6SpdPIDOutAvg",false,"0.0",,,,,,,,false,false,"0.0"
+F32-000135,"P6SpdPIDRate",true,"0.0",,,,,,,,false,false,"0.0"
+F32-000136,"P6SpdPIDReset",true,"1000.0",,,,,,,,false,false,"0.0"
+AOS32-0.1.5.4,"P6Speed",false,"0",,,,,,,,false,false,"0"
+C-000213,"P6SpeedExercise",false,"0",,,,,,,,false,false,"0"
+C-000212,"P6SpeedExerciseTrue",false,"0",,,,,,,,false,false,"0"
+F32-000137,"P6SpeedPIDOut",false,"0.0",,,,,,,,false,false,"0.0"
+C-000173,"P6Status",false,"0",,,,,,,,false,false,"0"
+DI-0.1.2.8,"P6VFDFail",false,"0",,,,,,,,false,false,"0"
+C-000095,"P6VFDFailLocked",true,"0",,,,,,,,false,false,"0"
+C-000094,"P6VFDFailReset",true,"0",,,,,,,,false,false,"0"
+F32-000122,"PID2SpdGain",true,"0.5",,,,,,,,false,false,"0.0"
+F32-000123,"PID2SpdRate",true,"0.0",,,,,,,,false,false,"0.0"
+F32-000124,"PID2SpdReset",true,"10.0",,,,,,,,false,false,"0.0"
+F32-000125,"PID2SpdSetPt",true,"10.0",,,,,,,,true,false,"0.0"
+F32-000026,"PIDHPs",false,"0.0",,,,,,,,false,false,"0.0"
+F32-000029,"PIDHPsAvg",false,"0.0",,,,,,,,false,false,"0.0"
+F32-000055,"PIDHPsAvgX10",false,"0.0",,,,,,,,false,false,"0.0"
+F32-000054,"PIDHPsAvgX5",false,"0.0",,,,,,,,false,false,"0.0"
+F32-000010,"PIDHPsGain",true,"1.0",,,,,,,,false,false,"0.0"
+F32-000011,"PIDHPsRate",true,"0.5",,,,,,,,false,false,"0.0"
+F32-000012,"PIDHPsReset",true,"0.0",,,,,,,,false,false,"0.0"
+S32-000052,"PIDHPsRnd",false,"0",,,,,,,,false,false,"0"
+F32-000064,"PIDHPstest",false,"0.0",,,,,,,,false,false,"0.0"
+S32-000115,"PIDP2SpdOut",false,"0",,,,,,,,false,false,"0"
+F32-000088,"PIDStage9",false,"0.0",,,,,,,,false,false,"0.0"
+F32-000089,"PIDStage9Avg",false,"0.0",,,,,,,,false,false,"0.0"
+F32-000159,"PLCTime",false,"0.0",,,,,,,,false,false,"0.0"
+SWR-001505,"Peak Logic Scan Time [x100=usec]",false,"0",,,,,,,"longest logic scan time",,,
+SWR-001502,"Peak Scan Interval [x100=usec]",false,"0",,,,,,,"longest overall scan time",,,
+AIS32-0.1.6.1,"Phase1Raw",false,"0",,,,,,,,false,false,"0"
+AIS32-0.1.6.2,"Phase3Raw",false,"0",,,,,,,,false,false,"0"
+SBRW-001006,"Portable Memory Device Eject",false,"0",,,,,,,"Users set to 1(ON) and the system reset to 0 as eject is completed",,,
+SBR-000001,"Portable Memory Device Ready",false,"0",,,,,,,"PMD is installed and ready to use",,,
+S32-000037,"ProcOutPcnt",false,"0",,,,,,,,false,false,"0"
+SWR-001512,"Program Memory Size",false,"0",,,,,,,"current percentage of CPU memory used by the project",,,
+F32-000061,"Prop",false,"0.0",,,,,,,,false,false,"0.0"
+F32-000039,"PumpRunTime",true,"432000.0",,,,,,,,false,false,"0.0"
+S32-000038,"RateChange",false,"0",,,,,,,,false,false,"0"
+C-000292,"RecircWaterStart",false,"0",,,,,,,,false,false,"0"
+C-000293,"RecircWaterStop",false,"0",,,,,,,,false,false,"0"
+SBRW-001003,"Refresh Critical Error Log",false,"0",,,,,,,"set On to refresh the ""Critical Error Log""",,,
+SBRW-001004,"Refresh Non-Critical Error Log",false,"0",,,,,,,"set On to refresh the ""Noncritical Error Log""",,,
+SSTR-000103,"Requested Module Name",false,,,,50,,,,"name of specified module (see ""Identify Module Request bit"")",,,
+C-000102,"ResetStuff",false,"0",,,,,,,,true,false,"0"
+S32-000040,"SPAccelGain",false,"0",,,,,,,,false,false,"0"
+F32-000155,"STGDeficitTimer",false,"0.0",,,,,,,,false,false,"0.0"
+C-000283,"STGDeficitTimerDone",false,"0",,,,,,,,false,false,"0"
+F32-000153,"STGsDeficit",false,"0.0",,,,,,,,false,false,"0.0"
+F32-000154,"STGsDeficitAvg",false,"0.0",,,,,,,,false,false,"0.0"
+S32-000135,"STGsRunning",false,"0",,,,,,,,false,false,"0"
+S32-000039,"SampleRate",true,"1000",,,,,,,,false,false,"0"
+C-000058,"SkipRest",false,"0",,,,,,,,false,false,"0"
+C-000070,"SkipWells",false,"0",,,,,,,,false,false,"0"
+C-000198,"Stage8",false,"0",,,,,,,,false,false,"0"
+C-000199,"Stage8Avail",true,"0",,,,,,,,true,false,"0"
+S32-000103,"Stage8State",false,"0",,,,,,,,false,false,"0"
+C-000123,"Stage9",false,"0",,,,,,,,false,false,"0"
+C-000258,"Stage9Avail",true,"0",,,,,,,,false,false,"0"
+F32-000090,"Stage9ColdTimer",true,"0.0",,,,,,,,false,false,"0.0"
+C-000194,"Stage9ColdTimerTrue",true,"0",,,,,,,,false,false,"0"
+C-000122,"Stage9Full",true,"0",,,,,,,,true,false,"0"
+F32-000098,"Stage9FullDdResetTimer",false,"0.0",,,,,,,,false,false,"0.0"
+C-000193,"Stage9FullDead",true,"0",,,,,,,,false,false,"0"
+C-000124,"Stage9FullOverride",true,"0",,,,,,,,true,false,"0"
+C-000218,"Stage9FullRetry",false,"0",,,,,,,,false,false,"0"
+S32-000101,"Stage9Set",true,"120",,,,,,,,false,false,"0"
+F32-000160,"StartTimer",false,"0.0",,,,,,,,false,false,"0.0"
+C-000261,"Stg8Or9WasOn",false,"0",,,,,,,,false,false,"0"
+C-000262,"Stg8ResetTimer",false,"0",,,,,,,,false,false,"0"
+F32-000161,"StopTimer",false,"0.0",,,,,,,,false,false,"0.0"
+C-000225,"Success",false,"0",,,,,,,,false,false,"0"
+C-000100,"SummerMode",true,"1",,,,,,,,false,false,"0"
+S32-000076,"SummerSet",true,"47",,,,,,,,false,false,"45"
+SBR-001010,"Switch in Run Bit",false,"0",,,,,,,"On if CPU Switch is up (Run)",,,
+SBR-001011,"Switch in Stop Bit",false,"0",,,,,,,"On if CPU Switch is down (Stop)",,,
+S32-000001,"T1_CURVAL",false,"0",,,,,,,,false,false,"0"
+C-000001,"T1_DN",false,"0",,,,,,,,false,false,"0"
+C-000003,"T1_MANUAL",false,"0",,,,,,,,false,false,"0"
+S32-000002,"T1_SP",false,"300",,,,,,,,false,false,"0"
+C-000002,"T1_START",false,"0",,,,,,,,false,false,"0"
+C-000217,"TestEmailGo",false,"0",,,,,,,,false,false,"0"
+C-000215,"TestEmailLocked",false,"0",,,,,,,,false,false,"0"
+C-000216,"TestEmailReset",false,"0",,,,,,,,false,false,"0"
+F32-000139,"ThermRise",false,"0.0",,,,,,,,false,false,"0.0"
+F32-000138,"ThermRiseGoal",false,"0.0",,,,,,,,false,false,"0.0"
+C-000226,"Timeout",false,"0",,,,,,,,false,false,"0"
+C-000185,"TooCold",false,"0",,,,,,,,false,false,"0"
+C-000186,"TooHot",false,"0",,,,,,,,false,false,"0"
+SWR-001507,"Total Scan Count1",false,"0",,,,,,,"total number of scans since entering Run mode (S32 low word)",,,
+SWR-001508,"Total Scan Count2",false,"0",,,,,,,"total number of scans since entering Run mode (S32 high word)",,,
+S16-000038,"WE01",false,"0",,,,,,,,false,false,"0"
+S16-000039,"WE02",false,"0",,,,,,,,false,false,"0"
+S16-000040,"WE03",false,"0",,,,,,,,false,false,"0"
+S16-000041,"WE04",false,"0",,,,,,,,false,false,"0"
+F32-000119,"WEDiffPAvg",false,"0.0",,,,,,,,false,false,"0.0"
+F32-000109,"WEDiffPress",false,"0.0",,,,,,,,false,false,"0.0"
+F32-000107,"WEPIn",false,"0.0",,,,,,,,false,false,"0.0"
+F32-000108,"WEPOut",false,"0.0",,,,,,,,false,false,"0.0"
+C-000128,"WPALTLowSpace",false,"0",,,,,,,,false,false,"0"
+C-000064,"WWP1Avail",true,"1",,,,,,,,true,false,"0"
+C-000130,"WWP1AvailDrum",false,"0",,,,,,,,false,false,"0"
+C-000133,"WWP1Dead",true,"0",,,,,,,,false,false,"0"
+C-000089,"WWP1FailLocked",true,"0",,,,,,,,false,false,"0"
+C-000088,"WWP1FailReset",true,"0",,,,,,,,true,false,"0"
+S32-000070,"WWP1FailState",false,"0",,,,,,,,false,false,"0"
+C-000074,"WWP1Off",false,"0",,,,,,,,false,false,"0"
+C-000071,"WWP1On",false,"0",,,,,,,,false,false,"0"
+S32-000061,"WWP1OnCnt",false,"1",,,,,,,,false,false,"0"
+C-000026,"WWP1OnTimeWrap",false,"0",,,,,,,,false,false,"0"
+DO-0.1.4.4,"WWP1S/S",false,"0",,,,,,,,false,false,"0"
+F32-000031,"WWP1SpdPcnt",false,"0.0",,,,,,,,false,false,"0.0"
+AOS32-0.1.5.1,"WWP1Speed",false,"0",,,,,,,,true,false,"0"
+S32-000057,"WWP1State",false,"0",,,,,,,,false,false,"0"
+DI-0.1.2.5,"WWP1VFDFail",false,"0",,,,,,,,false,false,"0"
+S32-000042,"WWP1WrapCnt",true,"0",,,,,,,,false,false,"0"
+C-000066,"WWP2Avail",true,"1",,,,,,,,true,false,"0"
+C-000131,"WWP2AvailDrum",false,"0",,,,,,,,false,false,"0"
+C-000134,"WWP2Dead",true,"0",,,,,,,,false,false,"0"
+C-000091,"WWP2FailLocked",true,"0",,,,,,,,false,false,"0"
+C-000090,"WWP2FailReset",true,"0",,,,,,,,true,false,"0"
+S32-000071,"WWP2FailState",false,"0",,,,,,,,false,false,"0"
+C-000075,"WWP2Off",false,"0",,,,,,,,false,false,"0"
+C-000072,"WWP2On",false,"0",,,,,,,,false,false,"0"
+S32-000062,"WWP2OnCnt",false,"1",,,,,,,,false,false,"0"
+C-000077,"WWP2OnTimeWrap",false,"0",,,,,,,,false,false,"0"
+DO-0.1.4.5,"WWP2S/S",false,"0",,,,,,,,false,false,"0"
+AOS32-0.1.5.2,"WWP2Speed",false,"0",,,,,,,,false,false,"0"
+S32-000058,"WWP2State",false,"0",,,,,,,,false,false,"0"
+DI-0.1.2.6,"WWP2VFDFail",false,"0",,,,,,,,false,false,"0"
+S32-000065,"WWP2WrapCnt",true,"0",,,,,,,,false,false,"0"
+C-000169,"WWP3 Status",false,"0",,,,,,,,false,false,"0"
+C-000068,"WWP3Avail",true,"1",,,,,,,,true,false,"0"
+C-000132,"WWP3AvailDrum",false,"0",,,,,,,,false,false,"0"
+C-000135,"WWP3Dead",true,"0",,,,,,,,false,false,"0"
+C-000069,"WWP3Fail",true,"0",,,,,,,,false,false,"0"
+C-000093,"WWP3FailLocked",true,"0",,,,,,,,false,false,"0"
+C-000092,"WWP3FailReset",true,"0",,,,,,,,true,false,"0"
+S32-000072,"WWP3FailState",false,"0",,,,,,,,false,false,"0"
+C-000076,"WWP3Off",false,"0",,,,,,,,false,false,"0"
+C-000073,"WWP3On",false,"0",,,,,,,,false,false,"0"
+S32-000063,"WWP3OnCnt",false,"1",,,,,,,,false,false,"0"
+F32-000009,"WWP3OnTimeTotal",true,"476.0928",,,,,,,,false,false,"0.0"
+C-000037,"WWP3OnTimeWrap",false,"0",,,,,,,,false,false,"0"
+DO-0.1.4.6,"WWP3S/S",false,"0",,,,,,,,false,false,"0"
+AOS32-0.1.5.3,"WWP3Speed",false,"0",,,,,,,,false,false,"0"
+S32-000059,"WWP3State",false,"0",,,,,,,,false,false,"0"
+C-000038,"WWP3TmrCntDn",false,"0",,,,,,,,false,false,"0"
+C-000039,"WWP3TmrRst",false,"0",,,,,,,,false,false,"0"
+DI-0.1.2.7,"WWP3VFDFail",false,"0",,,,,,,,false,false,"0"
+S32-000044,"WWP3WrapCnt",true,"0",,,,,,,,false,false,"0"
+C-000061,"WWPRun",false,"0",,,,,,,,false,false,"0"
+C-000078,"WWPSpdAuto",true,"1",,,,,,,,false,false,"0"
+S32-000105,"WWPState",false,"0",,,,,,,,false,false,"0"
+S32-000060,"WWPsRunning",false,"0",,,,,,,,false,false,"0"
+S32-000041,"WWSetPress",true,"20",,,,,,,,false,false,"0"
+F32-000094,"WasOA2CldTmr",false,"0.0",,,,,,,,false,false,"0.0"
+C-000206,"WasOATooCldTmrTrue",false,"0",,,,,,,,false,false,"0"
+C-000204,"WasOATooCold",false,"0",,,,,,,,false,false,"0"
+C-000209,"WasOATooHot",false,"0",,,,,,,,false,false,"0"
+C-000161,"Was_DO-0.1.4.7",false,"0",,,,,,,,false,false,"0"
+SBR-001016,"Watchdog Timeout",false,"0",,,,,,,"On if the actual scan time has exceeded the limit set in the project",,,
+S32-000114,"WaterUsed",false,"0",,,,,,,,false,false,"0"
+C-000021,"Well1PmpEnable",false,"0",,,,,,,,false,false,"0"
+F32-000001,"Well1PmpGain",true,"5.0",,,,,,,,false,false,"0.0"
+F32-000002,"Well1PmpRate",true,"0.0",,,,,,,,false,false,"0.0"
+F32-000003,"Well1PmpReset",true,"20.0",,,,,,,,false,false,"0.0"
+F32-000042,"WellDT",false,"0.0",,,,,,,,false,false,"0.0"
+C-000126,"WellExercise",false,"0",,,,,,,,true,false,"0"
+AIF32-0.1.1.2,"WellInTemp",false,"0.0",,,,,,,,false,false,"0.0"
+F32-000099,"WellInTempAvg",false,"0.0",,,,,,,,false,false,"0.0"
+C-000116,"WellInTempLowLatch",false,"0",,,,,,,,false,false,"0"
+F32-000053,"WellInTempLowTmr",false,"0.0",,,,,,,,false,false,"0.0"
+C-000117,"WellInTempLowTrue",false,"0",,,,,,,,false,false,"0"
+AR1F32-000003(1),"WellOffTimeArray(1)",TRUE,"304.13174",,,,,3,,,,,
+AR1F32-000003(2),"WellOffTimeArray(2)",TRUE,"353.5836",,,,,,,,,,
+AR1F32-000003(3),"WellOffTimeArray(3)",TRUE,"0.0",,,,,,,,,,
+C-000136,"WellOffTimeHigh",false,"0",,,,,,,,false,false,"0"
+F32-000032,"WellOffTimeMax",false,"0.0",,,,,,,,false,false,"0.0"
+AR1F32-000005(1),"WellOnTimeArray(1)",TRUE,"0.0",,,,,3,,,,,
+AR1F32-000005(2),"WellOnTimeArray(2)",TRUE,"0.0",,,,,,,,,,
+AR1F32-000005(3),"WellOnTimeArray(3)",TRUE,"238.38661",,,,,,,,,,
+F32-000033,"WellOnTimeMax",false,"0.0",,,,,,,,false,false,"0.0"
+F32-000034,"WellOnTimeMax2",false,"0.0",,,,,,,,false,false,"0.0"
+AR1F32-000007(1),"WellOnTimeTotalArray(1)",TRUE,"8954.859",,,,,3,,,,,
+AR1F32-000007(2),"WellOnTimeTotalArray(2)",TRUE,"5099.065",,,,,,,,,,
+AR1F32-000007(3),"WellOnTimeTotalArray(3)",TRUE,"8187.3213",,,,,,,,,,
+AIS32-0.1.3.1,"WellPress",false,"0",,,,,,,,false,false,"0"
+F32-000005,"WellPressAvg",false,"0.0",,,,,,,,false,false,"0.0"
+C-000113,"WellPressHighLatch",false,"0",,,,,,,,false,false,"0"
+F32-000051,"WellPressHighTmr",false,"0.0",,,,,,,,false,false,"0.0"
+C-000112,"WellPressHighTrue",false,"0",,,,,,,,false,false,"0"
+C-000111,"WellPressLowLatch",false,"0",,,,,,,,false,false,"0"
+C-000264,"WellPressLowLatchB",false,"0",,,,,,,,false,false,"0"
+F32-000050,"WellPressLowTmr",false,"0.0",,,,,,,,false,false,"0.0"
+S32-000123,"WellPressLowTmrB",false,"0",,,,,,,,false,false,"0"
+S32-000124,"WellPressLowTmrC",false,"0",,,,,,,,false,false,"0"
+C-000110,"WellPressLowTrue",false,"0",,,,,,,,false,false,"0"
+C-000263,"WellPressLowTrueB",false,"0",,,,,,,,false,false,"0"
+F32-000004,"WellPressScaled",false,"0.0",,,,,,,,false,false,"0.0"
+AIF32-0.1.1.3,"WellRetTemp",false,"0.0",,,,,,,,false,false,"0.0"
+F32-000100,"WellRetTempAvg",false,"0.0",,,,,,,,false,false,"0.0"
+C-000062,"WellStart",false,"0",,,,,,,,false,false,"0"
+C-000063,"WellStop",false,"0",,,,,,,,false,false,"0"
+S32-000100,"WellSwitchTime",true,"600",,,,,,,,false,false,"0"
+AR1F32-000006(1),"WellTest2Array(1)",FALSE,"0.0",,,,,3,,,,,
+AR1F32-000006(2),"WellTest2Array(2)",FALSE,"0.0",,,,,,,,,,
+AR1F32-000006(3),"WellTest2Array(3)",FALSE,"0.0",,,,,,,,,,
+AR1F32-000004(1),"WellTestArray(1)",FALSE,"0.0",,,,,3,,,,,
+AR1F32-000004(2),"WellTestArray(2)",FALSE,"0.0",,,,,,,,,,
+AR1F32-000004(3),"WellTestArray(3)",FALSE,"0.0",,,,,,,,,,
+S32-000064,"WellsNeeded",false,"0",,,,,,,,false,false,"0"
+S32-000077,"WinterSet",true,"115",,,,,,,,false,false,"120"
+S32-000079,"dummy",false,"100",,,,,,,,false,false,"0"
+S32-000051,"i",false,"0",,,,,,,,false,false,"0"
+S32-000087,"integratorCount",false,"0",,,,,,,,false,false,"0"
+C-000189,"its250am",false,"0",,,,,,,,false,false,"0"
+F32-000070,"kWH",true,"678.19867",,,,,,,,false,false,"0.0"
