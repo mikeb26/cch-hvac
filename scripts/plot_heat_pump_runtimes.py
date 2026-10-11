@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Plot completed heat-pump run durations from tab-delimited ``bigpic*.csv`` exports.
+"""Plot completed heat-pump run durations from tab-delimited Big Picture exports.
 
 A heat pump is on whenever its HP<N>STATE value is nonzero. Missing state values
 are forward-filled, so they retain the most recently observed state. Only runs
@@ -18,7 +18,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 
 
-GLOB_PATTERN = "data/bigpic*.csv"
+GLOB_PATTERN = "data/bigpic/bigpic*.csv"
 DATE_COLUMN = "Date"
 DATE_FORMAT = "%H:%M:%S %m-%d-%Y"
 HEAT_PUMP_COLUMNS = [f"HP{number}STATE" for number in range(1, 7)]

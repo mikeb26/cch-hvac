@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Plot the most recent five days of BLDGHWRTEMPAVG and BLDGHWSTEMPAVG,
-plus outside temperature from bigpic*.csv telemetry files in ./data.
+plus outside temperature from Big Picture telemetry files in ./data/bigpic.
 Saves the plot to ./graphs/temperature_plot.png.
 """
 import glob
@@ -12,7 +12,7 @@ import matplotlib.pyplot as plt
 import matplotlib.dates as mdates
 
 # Find all CSV files matching the pattern
-glob_pattern = 'data/bigpic*.csv'
+glob_pattern = 'data/bigpic/bigpic*.csv'
 files = sorted(glob.glob(glob_pattern))
 
 if not files:

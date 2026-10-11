@@ -1,4 +1,7 @@
+/data/bigpic
+/data/well-detail
 /data/*.csv
+/data/**/*.csv
 /graphs/*.png
 
 
